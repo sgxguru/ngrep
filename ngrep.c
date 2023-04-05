@@ -113,7 +113,7 @@ uint32_t tcpkill_active = 0;
 #endif
 
 uint8_t  re_match_word = 0, re_ignore_case = 0, re_multiline_match = 1;
-uint8_t  show_empty = 0, show_hex = 0, show_proto = 0, quiet = 0;
+uint8_t  show_empty = 0, show_hex = 0, show_proto = 0, quiet = 1;
 uint8_t  invert_match = 0, bin_match = 0;
 uint8_t  live_read = 1, want_delay = 0;
 uint8_t  dont_dropprivs = 0;
